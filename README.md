@@ -50,9 +50,6 @@ dictionary-app/
 **URL:**  
 `https://api.dictionaryapi.dev/api/v2/entries/en/<your_word>`
 
-**Example:**  
-https://api.dictionaryapi.dev/api/v2/entries/en/example
-
 ---
 
 ## 🧠 How to Use
@@ -67,6 +64,3 @@ https://api.dictionaryapi.dev/api/v2/entries/en/example
 ## 🙋‍♀️ Author
 
 **Ankita Kumari**  
-Built during a learning project based on API.
-
----
