@@ -18,8 +18,8 @@ body {
   background-color: white;
   padding: 30px;
   border-radius: 16px;
-  max-width: 500px;
-  width: 100%;
+  max-width: 90%;
+  width: 500px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -27,12 +27,15 @@ body {
 h1 {
   color: #7c3aed;
   margin-bottom: 20px;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 .input-group {
   display: flex;
+  flex-direction: column;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-top: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -52,7 +55,9 @@ button {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+  word-wrap: break-word;
   border-radius: 8px;
+  box-sizing: border-box;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -60,6 +65,7 @@ button {
 button:hover {
   background-color: #5b21b6;
 }
+
 
 #resultBox {
   text-align: left;
@@ -76,10 +82,11 @@ button:hover {
 
 @media (max-width: 600px) {
   .input-group {
-    flex-direction: column;
+    flex-direction:column;
   }
 
   input, button {
     width: 100%;
   }
+
 }
